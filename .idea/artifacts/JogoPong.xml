@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JogoPong">
+    <output-path>$PROJECT_DIR$/out/artifacts/JogoPong</output-path>
+    <root id="archive" name="JogoPong.jar">
+      <element id="module-output" name="Game01Pong" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
