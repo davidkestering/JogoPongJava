@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JogoPongAndroid" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7b0d6901-5001-4eec-9381-9389294d2bba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JogoPongAndroid/JogoPongAndroid.apk" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,13 +107,6 @@
               <item name="Game01Pong" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
               <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Game01Pong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Game01Pong" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="JogoPong" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Game01Pong" type="b2602c69:ProjectViewProjectNode" />
@@ -227,7 +225,7 @@
       <workItem from="1562973027231" duration="8178000" />
       <workItem from="1563024273276" duration="13482000" />
       <workItem from="1563048087463" duration="449000" />
-      <workItem from="1563048652132" duration="940000" />
+      <workItem from="1563048652132" duration="1336000" />
     </task>
     <task id="LOCAL-00001" summary="Criando Jogo Pong">
       <created>1563048929845</created>
@@ -243,16 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1563049021013</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Criando Artefato para Android APK">
+      <created>1563049677162</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563049677162</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29388000" />
+    <option name="totallyTimeSpent" value="29784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -321,7 +326,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criando Jogo Pong" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando Jogo Pong" />
+    <MESSAGE value="Criando Artefato para Android APK" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando Artefato para Android APK" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -382,7 +388,14 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
           <last-edited>JogoPong</last-edited>
           <splitter-proportions>
             <option name="proportions">
